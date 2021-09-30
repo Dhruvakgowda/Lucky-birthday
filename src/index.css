@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Roboto:wght@300;400;500&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body, html, #root, .home, .App {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  /* background-image: url("./img/bithday.png"); */
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#root {
+  background-image: url("./img/bithday.png");
+  font-family: 'Montserrat', sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1000px 700px;
+}
+
+.bg {
+  /* background-image: url("./img/bithday.png"); */
+  /* background: rgb(238, 214, 243); */
+  height: 100%;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  /* background-size: 1000px 800px; */
+}
+
+
+a {
+  color: #111;
+}
+
+.intro {
+  max-width: 600px;
+  margin: auto;
+  opacity: 0.9;
+  margin-top: 10rem;
+  letter-spacing: 1px;
+  background-color: yellow;
+
+  padding: 4em 5em;
+  box-shadow: 0px 1px 14px 1px rgba(0,0,0,0.64);
+
+}
+
+.title {
+  font-size: 2.5rem;
+  margin: 0;
+  margin-bottom: 8px;
+  opacity: 1;
+}
+
+a {
+  font-size: 1.5rem;
+}
+
+.notice {
+  font-weight: 900;
+  margin-right: 5px;
+}
+
+span {
+  display: inline-block;
+  color: green;
+}
+
+#border {
+  border: 1px solid green;
+  padding: 10px;
+  box-shadow: 1px 0px 14px -2px rgba(91, 230, 73, 0.75);
+
+}
+
+#delete {
+  margin-left: 20px;
+  font-size: 0.8rem;
+  border: 1px solid yellow;
+  border: 1px solid green;
+  cursor: pointer;
+  padding: 0px 2px;
+
+}
+
+
+
+button {
+  display: block;
+  margin: 8px auto;
+  padding: 10px 25px;
+  font-weight: 900;
+  margin-top: 10px;
+  border-radius: 50px;
+  border: none;
+  background: black;
+  color: #fff;
+  border: 2px solid yellow;
+
+}
+
+button:hover {
+  background: yellow;
+  border: 2px solid #111;
+  color: #111;
+  cursor: pointer;
+}
+
+.notice {
+  font-size: 1.3rem;
+}
+
+
+input {
+  padding: 10px 10px;
+  font-size: 1em;
+  border: none;
+  box-shadow: 0px 1px 14px 1px rgba(32, 31, 32, 0.64);
+  /* outline: none; */
+
+}
+
+.prompt {
+  font-weight: 600;
+  margin-top: 60px;
+  margin-bottom: 5px;
+}
+
+#details-sec {
+  width: 500px;
+}
+
+.icons {
+  color: rgb(10, 10, 12);
+  margin: 5px 20px;
+}
+
+#icons-grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+footer {
+    margin-top: 80px;
+    
+}

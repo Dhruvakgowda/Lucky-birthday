@@ -56,7 +56,7 @@ const Home = () => {
             <div className="bg">
                 <div className="intro">
                     <h1 className="title">Is Your Birthday Lucky?</h1>
-                    <a href="#details-sec" className="scroll"> scroll down to check out</a>
+                    <a href="#details-sec" className="scroll"> CLick here to Find out</a>
                 </div>
             </div>
 

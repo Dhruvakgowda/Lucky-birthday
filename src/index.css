@@ -41,7 +41,7 @@ a {
 }
 
 .intro {
-  max-width: 600px;
+  width:100%;
   margin: auto;
   opacity: 0.9;
   margin-top: 10rem;
